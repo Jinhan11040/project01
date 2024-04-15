@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.mainpage-title {
+  width: 1440px;
+  height: 2000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -20,7 +30,7 @@
 .menu1{
     margin-left: 30px;
     border:1px solid black ;
-    width: 120px;
+    width: 130px;
     text-align: center;
     height: 30px;
     
@@ -63,6 +73,7 @@ a:link {
     color: white;
     font-size: 18px;
     width: 70px;
+    height: 30px;
     text-align: center;
     align-items: center;   
 }
@@ -109,3 +120,76 @@ li  { position:relative }
   margin: 0;
 } 
 /* 검색버튼 안됨 */
+
+
+
+.slider-img {
+  width: 100%;
+  margin-top: 20px;
+}
+.main_image{
+  position: relative;
+}
+.img-text1{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 40px;
+  color: white;
+}
+
+.img-text2{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-size: 20px;
+  color: white;
+}
+.img-text3{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-size: 30px;
+  color: white;
+}
+.img-text4{
+  position: absolute;
+  top: 83%;
+  left: 16%;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid rgb(#255, #255, #255);
+  background-color: rgba(70,70,70, 0.7);
+  width: 50px;
+  padding-left: 10px;
+
+}
+
+
+.sub-text1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #464646;
+  margin-top: 20px;
+}
+
+/* .sub-img1 {
+  border:1px solid #eaebed;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: block;
+  background-image: url(./img/sub-img1.jpg);
+  height:226px;
+  width: 340px;
+  transition: all 0.2s linear;
+}
+.sub-img1:hover {
+  transform: scale(1.01);
+}
+.card-name {
+  margin-top: 70%;
+  font-size: 12px;
+  color: black;
+} */
